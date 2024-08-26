@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 const sizeColorOptions = offer.querySelector('.size-color-options');
                 const offerBox = offer.querySelector('.offer-box');
                 offerBox.style.display ='flex';
-                // Reset previous offers
                 offer.classList.remove('expanded');
                 if (discountBox) discountBox.classList.remove('hidden');
                 if (sizeColorOptions) sizeColorOptions.style.display = 'none';
@@ -22,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 const sizeColorOptions = offer.querySelector('.size-color-options');
                 const offerBox = offer.querySelector('.offer-box');
                 offerBox.style.display ='block';
-                // Expand the selected offer
                 offer.classList.add('expanded');
                 if (discountBox) discountBox.classList.add('hidden');
                 if (sizeColorOptions) sizeColorOptions.style.display = 'block';

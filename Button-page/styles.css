@@ -114,7 +114,6 @@ footer {
     transition: height 0.01s ease, padding 0.01s ease, border-color 0.3s ease;
     overflow: hidden;
     border: 2px solid transparent;
-    /* Default border */
 }
 
 .offer.expanded {
@@ -122,7 +121,6 @@ footer {
     border: 2px solid #FF6B82;
     background: #FFF9FA;
     padding: 20px;
-    /* Red border on expansion */
 }
 
 
@@ -184,24 +182,19 @@ footer {
     align-items: center;
     padding: 1px 4px;
     gap: 10px;
-
     width: 52px;
     height: 17px;
     left: 191.77px;
     top: 282.12px;
-
     background: #FF6B82;
     border-radius: 2px;
-
     width: 44px;
     height: 15px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -229,10 +222,8 @@ footer {
 
 .size-color-options-sub span {
     display: inline-block;
-    /* Aligns spans horizontally */
     margin-right: 10px;
     vertical-align: middle;
-    /* Ensures vertical alignment of spans */
 }
 
 .number {
